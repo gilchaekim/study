@@ -4,7 +4,7 @@ import Cache from 'gulp-file-cache';
 
 let cache = new Cache();
 let DIR = {
-    SRC: 'html', // 작업을 진행할 폴더명입니다.  
+    SRC: 'html', // 작업을 진행할 폴더명입니다
     DEST: 'html_build', // 작업된 파일들을 컴파일하여 정리해두는 폴더입니다. 
     PORT: 8005 // 서버가 실행될 포트 번호입니다. 
 }; 
